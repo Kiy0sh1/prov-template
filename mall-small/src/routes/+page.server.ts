@@ -13,7 +13,7 @@ export const actions: Actions = {
         const loggedincheck = cookies.get("loggedin")
 
         if(loggedincheck){
-            return loggedincheck;
+            throw redirect(303, "/login");
         }      
         
         
