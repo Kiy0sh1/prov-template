@@ -5,7 +5,7 @@
 </script>
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
-		<img class="absolute bgimage " src="https://wallpapercave.com/wp/wp10967833.jpg" alt="">
+		<img class="absolute bgimage2 " src="https://wallpapercave.com/wp/wp10967833.jpg" alt="">
 	</div>
 </div>
 
@@ -13,7 +13,7 @@
 
 <style>
 
-.bgimage{
+.bgimage2{
 	box-sizing: border-box;
 	transform: translate(-50%);
 	width: 100%;
@@ -22,7 +22,7 @@
 	
 }
 
-.fade{
+.fade2{
 	
 	position: absolute;
 	padding-left: 100%;
