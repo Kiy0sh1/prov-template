@@ -12,7 +12,7 @@
     <form class="absolute inputthing" action="?/forgor" method="post">
     <input type="text" name="username">
     {#if form?.mypassword} 
-    <h1 class="h1 absolute output">your password is <h1 class="bg-primary-500">{                                                             form                                                                                                                                                                                                                                 .mypassword}</h1></h1>
+    <h1 class="h1 absolute output">your password is <h1 class="bg-primary-500">{form.mypassword}</h1></h1>
     {/if}
     </form>
 </div>
