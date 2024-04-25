@@ -7,16 +7,16 @@
 </script>
 
 <!--https://lh4.googleusercontent.com/proxy/mUmcn-ykpZCVdictohSjdKSj4sWTDWHAgzJddrhqTNniWLvWeNPqBz_JT090OflvtxTtbPvg0QlezWCYwgG2LT7Kpd_onAzpW4Pay2O1FnJ57A-->
-<div class=" bg-surface-700 bg">
+<div class=" bg-surface-700 bg2">
     
 
     <form method="post" action="?/login">
-        <div class=" absolute usernamething">
+        <div class=" absolute usernamething2">
             <h2 class="">Username*</h2>
             <input class="pr-40 pt-2 pb-2 bg-surface-900 pl-2" type="username" name="username" placeholder="Enter your username" required>
         </div>  
 
-        <div class=" absolute passwordthing">
+        <div class=" absolute passwordthing2">
             <h2>Password* </h2>
 
         
@@ -26,38 +26,38 @@
         
         </div>
         
-        <button formaction="?/login" class=" absolute btn loginbtn bg-primary-500 pl-20 pr-20">login</button>
+        <button formaction="?/login" class=" absolute btn loginbtn2 bg-primary-500 pl-20 pr-20">login</button>
     </form>
 
     
 
-<a href="/register" class="absolute dhaa code hover:bg-surface-500">Dont't have an account?</a>
-<a href="/login/forgor" class="absolute fp code hover:bg-surface-500">Forgot password?</a>    
+<a href="/register" class="absolute dhaa2 code hover:bg-surface-500">Dont't have an account?</a>
+<a href="/login/forgor" class="absolute fp2 code hover:bg-surface-500">Forgot password?</a>    
     
 </div>
 
 <style>
 
-.fp{
+.fp2{
     transform: translate(-50%);
     
     top: 85%;
     left: 76%;
 }
-.dhaa{
+.dhaa2{
     transform: translate(-100%);
     
     top: 85%;
     left: 48%;
     
 }
-.loginbtn{
+.loginbtn2{
     transform: translate(-50%);
     left: 50%;
     top: 60%;
     
 }
-.logintext{
+.logintext2{
     top: 10%;
     left: 50%;
     transform: translate(-50%);
@@ -65,17 +65,17 @@
     
 
 }
-.passwordthing{
+.passwordthing2{
     top: 30%;
     left: 50%;
     transform: translate(-50%);
 }
-.usernamething{
+.usernamething2{
     top: 10%;
     left: 50%;
     transform: translate(-50%);
 }
-.bg{
+.bg2{
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
